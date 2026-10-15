@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+.output/
+.vercel/
+.tanstack/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Logs / OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test / coverage
+coverage/
+*.test.ts.snap
+
+# Local
+artifacts/
+screenshots/
